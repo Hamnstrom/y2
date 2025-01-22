@@ -1,0 +1,7 @@
+#historyDiv {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 300px; 
+    width: 500px;
+    overflow-y: auto; /* Enables scrolling when content overflows */
+}

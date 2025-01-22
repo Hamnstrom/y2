@@ -1,0 +1,111 @@
+
+#appendHere {
+    position: absolute; top: 100px; left: 100px;
+    background: url(https://cdn.dribbble.com/users/58639/screenshots/3788063/media/dc42f0f17659e22bb63884a4318f2c05.jpg?resize=400x300&vertical=center);
+
+    background-size: cover;
+    background-repeat: no-repeat; /* Change to no-repeat */
+    background-position: center;
+    height: 100%;
+    width: 400pt
+
+
+}
+
+body {
+    background-image: url("https://w.wallhaven.cc/full/1k/wallhaven-1klwgv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; /* Change to no-repeat */
+    background-position: center;
+    height: 100%;
+    width: 6000px;
+}
+
+html {
+    height: 100%;
+}
+
+
+
+#counterNum {
+    font-size: 80px; /* Extra large text */
+    color: lime; /* Obnoxious green color */
+    text-shadow: 5px 5px 0px purple, 10px 10px 0px orange; /* Clashing shadows */
+    position: absolute; /* Position it absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%) rotate(-10deg); /* Center and rotate */
+    z-index: 1000; /* High z-index to stay on top of other elements */
+    letter-spacing: 5px; /* Too much space between letters */
+    font-weight: bold; /* Super bold text */
+    border: 10px dashed red; /* Dashed border that doesn't complement anything */
+    padding: 20px; /* Padding that adds to the clutter */
+    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.classId1012 {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 30px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Small margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+}
+
+.classId1012:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly scale up the button */
+}
+
+.classId1012:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    transform: scale(0.98); /* Slightly scale down the button */
+}
+
+
+
+
+
+
+
+
+
+
+.bad-button {
+    width: 100vw; /* Ultra stretched to full viewport width */
+    height: 200px; /* Excessive height */
+    font-size: 50px; /* Large font size */
+    color: white; /* Text color that's hard to read against a bright background */
+    background-color: hotpink; /* Clashing background color */
+    border: 5px dotted purple; /* Distracting border style */
+    text-shadow: 1px 1px 0px black; /* Odd shadow effect */
+    transition: all 0.3s; /* Smooth transition, but not needed here */
+    z-index: 500; /* z-index to place it below the H1 */
+    position: relative; /* Positioned relative */
+    margin-top: 50px; /* Extra space above */
+}
+
+.bad-button:hover {
+    background-color: orange; /* Change color on hover to something equally jarring */
+    transform: scale(1.1); /* Scale up on hover, making it even more awkward */
+}

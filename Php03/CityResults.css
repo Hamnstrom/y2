@@ -1,0 +1,31 @@
+
+#citySelectorDropdown {
+    background-color: #FF69B4; /* Hot pink background */
+    border: 5px solid #00FFFF; /* Cyan border */
+    border-radius: 0; /* No rounded corners */
+    padding: 10px; /* Extra padding */
+    font-family: 'Comic Sans MS', cursive; /* Comic Sans font */
+    font-size: 18px; /* Large font size */
+    text-align: center; /* Centered text */
+    box-shadow: 0 0 10px #FF0000; /* Red box shadow */
+}
+  
+#citySelectorDropdown option {
+    background-color: #FFFF00; /* Yellow background */
+    color: #0000FF; /* Blue text */
+    padding: 5px; /* Extra padding */
+    border-bottom: 1px solid #FF00FF; /* Magenta border */
+}
+  
+#citySelectorDropdown option:hover {
+    background-color: #FFA500; /* Orange background on hover */
+    color: #FFFFFF; /* White text on hover */
+    font-weight: bold; /* Bold text on hover */
+}
+  
+#citySelectorDropdown option:selected {
+    background-color: #008000; /* Green background on select */
+    color: #FFFFFF; /* White text on select */
+    font-style: italic; /* Italic text on select */
+}
+
